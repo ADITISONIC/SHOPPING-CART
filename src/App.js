@@ -1,6 +1,5 @@
 
 import './App.css';
-import GithubProfileFinder from './components/git-profile-finder';
 import SearchAutocomplete from './components/search-autocomplete/index.';
 
 function App() {
