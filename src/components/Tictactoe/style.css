@@ -1,7 +1,11 @@
-.tictactoe::after{
+.tictactoe{
     clear:both;
     content: "";
-    display: table;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .square{
@@ -14,4 +18,5 @@
     width: 100px;
     margin-right: -1px;
     margin-top: -1px;
+    cursor: pointer;
 }

@@ -1,11 +1,11 @@
 
 import './App.css';
-import SearchAutocomplete from './components/search-autocomplete/index.';
+import Tictactoe from './components/Tictactoe';
 
 function App() {
   return (
     <div className="App">
-      <SearchAutocomplete/>
+      <Tictactoe/>
     </div>
   );
 }
