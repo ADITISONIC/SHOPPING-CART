@@ -1,10 +1,11 @@
-import UseFetchHookTest from './components/use-fetch/test';
+
 import './App.css';
+import UseOnClickOutisideTest from './components/use-outside-click/test';
 
 function App() {
   return (
     <div className="App">
-     <UseFetchHookTest/>
+    <UseOnClickOutisideTest/>
     </div>
   );
 }
