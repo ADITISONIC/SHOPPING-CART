@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import ProductTile from "../components/product-tile";
-
+import { Circles } from "react-loader-spinner";
 
 
 
@@ -24,7 +24,7 @@ export default function Home(){
           {
             loading?(
             <div className="min-h-screen w-full flex justify-center items-center">
-                <circles
+                <Circles
                 height={120}
                 width={120}
                 color="rgb()"/> 
